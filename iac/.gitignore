@@ -1,0 +1,22 @@
+@"
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl
+
+# Variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Archivos de plan
+*.tfplan
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+"@ > .gitignore
