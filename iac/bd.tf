@@ -3,7 +3,7 @@ resource "docker_container" "bd" {
     image = "lab/bd"
 
     ports{
-        internal = "3000"
+        internal = "5432"
         external = var.bd_port[terraform.workspace]
     }
 }
